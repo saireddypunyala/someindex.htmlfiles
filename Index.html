@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .navbar,
+      .footer {
+        background-color: aquamarine;
+        height: 50px;
+      }
+
+      .dashboard {
+        background-color: rgb(221, 240, 234);
+        width: 15vw;
+      }
+
+      .content {
+        background-color: rgb(58, 191, 231);
+        width: 85vw;
+      }
+
+      .content-wrapper {
+        display: flex;
+        width: 100vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- Top section  -->
+      <nav class="navbar">Top Section</nav>
+      <!-- Content & Dashboard -->
+      <div class="content-wrapper">
+        <section class="dashboard">
+          <ul type="none">
+            <li>Project1</li>
+            <li>Project2</li>
+            <li>Project3</li>
+            <li>Project4</li>
+            <li>Project5</li>
+            <li>Project6</li>
+          </ul>
+        </section>
+        <section class="content">
+          Content
+          <p>
+            Virat Kohli is an Indian international cricketer and the former
+            captain of the Indian national cricket team who plays as a
+            right-handed batsman for Royal Challengers Bangalore in the IPL and
+            for Delhi in Indian domestic cricket
+          </p>
+        </section>
+      </div>
+      <!-- footer -->
+      <footer class="footer">Bottom Section</footer>
+    </div>
+  </body>
+</html>
